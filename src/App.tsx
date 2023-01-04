@@ -61,7 +61,7 @@ function App() {
           contractAddress={contractAddress}
           onMintSuccess={({ mintCount, txReceipt }) => {
             alert(
-              `Yaaay! You minted ${mintCount.toString()} NFT! \n Tx Hash: ${
+              `Nice work! You minted an NFT on Layer2 Ethereum${mintCount.toString()} Whoop whoop! \n Tx Hash: ${
                 txReceipt?.transactionHash
               }`
             );
