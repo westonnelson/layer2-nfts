@@ -74,7 +74,7 @@ function App() {
             <main className="h-fit w-full max-w-2xl min-w-xl mx-auto lg:max-w-5xl flex flex-col gap-8 items-center p-4">
               {/* Sales Title */}
               <div className="flex flex-col gap-4 items-center justify-between">
-                <h2 className="font-bold text-2xl">My Amazing NFT</h2>
+                <h2 className="font-bold text-2xl">Mint Your Layer2 NFT Exchange Access Pass Now!</h2>
                 <IfWalletConnected>
                   <WalletDropdown />
                 </IfWalletConnected>
